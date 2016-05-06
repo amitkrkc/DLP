@@ -153,19 +153,6 @@ inline T SQUARE(const T& a)
 	return a*a;
 }
 
-//// computes min of two elements
-//template<class T>
-//inline T MIN(const T& a, const T& b)
-//{
-//	return (a<b)?a:b;
-//}
-//
-//// computes max of two elements
-//template<class T>
-//inline T MAX(const T& a, const T& b)
-//{
-//	return (a>b)?a:b;
-//}
 
 //computes L-2 norm of two vectors a and b
 double norm2(const vector_double& a, const vector_double& b)
